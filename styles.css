@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 980px;
+  height: 600px;
+  box-shadow: 1px 2px 4px 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.one,
+.middle > div,
+.four {
+  width: 300px;
+  height: 200px;
+  background: lightgrey;
+  border-radius: 4px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 420px;
+}
+
+.one {
+  border-top: 2px solid turquoise;
+}
+
+.two {
+  border-top: 2px solid red;
+}
+
+.three {
+  border-top: 2px solid yellow;
+}
+
+.four {
+  border-top: 2px solid dodgerblue;
+}
